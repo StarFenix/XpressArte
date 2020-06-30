@@ -1,0 +1,182 @@
+@font-face {
+	font-family: 'IconoWeb';
+	src:  url('fonts/IconoWeb.eot?270wk9');
+	src:  url('fonts/IconoWeb.eot?270wk9#iefix') format('embedded-opentype'),
+	  url('fonts/IconoWeb.ttf?270wk9') format('truetype'),
+	  url('fonts/IconoWeb.woff?270wk9') format('woff'),
+	  url('fonts/IconoWeb.svg?270wk9#IconoWeb') format('svg');
+	font-weight: normal;
+	font-style: normal;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'IconoWeb' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+  
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-paypal1:before {
+	content: "\e900";
+	color: #00457c;
+  }
+  .icon-facebook1:before {
+	content: "\e901";
+	color: #3b5998;
+  }
+  .icon-whatsapp1:before {
+	content: "\e902";
+	color: #25d366;
+  }
+  .icon-microsoftoutlook:before {
+	content: "\e903";
+	color: #0072c6;
+  }
+  .icon-home:before {
+	content: "\e904";
+  }
+  .icon-home3:before {
+	content: "\e905";
+  }
+  .icon-pencil2:before {
+	content: "\e906";
+  }
+  .icon-cart:before {
+	content: "\e93a";
+  }
+  .icon-phone:before {
+	content: "\e942";
+  }
+  .icon-unlocked:before {
+	content: "\e990";
+  }
+  .icon-bin:before {
+	content: "\e9ac";
+  }
+  .icon-enter:before {
+	content: "\ea13";
+  }
+  .icon-google-plus3:before {
+	content: "\ea8d";
+  }
+  .icon-facebook:before {
+	content: "\ea90";
+  }
+  .icon-facebook2:before {
+	content: "\ea91";
+  }
+  .icon-whatsapp:before {
+	content: "\ea93";
+  }
+  .icon-youtube:before {
+	content: "\ea9d";
+  }
+  .icon-paypal:before {
+	content: "\ead8";
+  }
+  .icon-add-outline:before {
+	content: "\e907";
+  }
+  .icon-add-solid:before {
+	content: "\e908";
+  }
+  .icon-lock-closed:before {
+	content: "\e909";
+  }
+  .icon-user:before {
+	content: "\e90a";
+  }
+  .icon-user-add:before {
+	content: "\e90b";
+  }
+  .icon-zoom-in:before {
+	content: "\e90c";
+  }
+  .icon-zoom-out:before {
+	content: "\e90d";
+  }
+  
+
+/*--------------------------------------------------------------*/
+nav{
+	  background-image: linear-gradient(-120deg, #FF0040, #01A9DB);
+	font-family: Arial;
+	height:60px;
+	
+}
+
+section{
+	background-color: #94569C;
+	color: white;
+	height: 500px;
+	flex:3;
+}
+
+#headingOne{
+	background: #F5A9E1;
+	font-family: Arial;
+	font: bold;
+}
+
+#headingTwo{
+	background: #A9D0F5;
+	font-family: Arial;
+}
+
+#headingThree{
+	background: #e3b9ee;
+	font-family: Arial;
+	
+}
+
+.card-body{
+	background: #f1eeee;
+	color: rgb(24, 23, 23);
+}
+
+aside{
+	background-color: black;
+	height:500px;
+	flex:2;
+	color:white;
+	padding-left: 25px;
+	padding-top: 30px;
+}
+
+
+#contenido{
+	display: flex;
+	flex-direction: row;
+
+}
+
+form{
+
+	color: white;
+}
+
+h5{
+	color: white;
+}
+
+footer {
+    background-color: rgb(219, 219, 209);
+    color: rgb(61, 12, 6);
+    padding: 40px 20px;
+}
+body, input, textarea, button, select {
+    font-size: 16px;
+    font-family: "Open Sans","HelveticaNeue","Helvetica Neue",sans-serif;
+    color: #383838;
+    line-height: 1.6;
+}
+
+
